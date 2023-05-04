@@ -24,5 +24,6 @@ public class MainMenu : MonoBehaviour
         play.SetActive(true);
         settings.SetActive(true);
         exit.SetActive(true);
+        //
     }
 }
