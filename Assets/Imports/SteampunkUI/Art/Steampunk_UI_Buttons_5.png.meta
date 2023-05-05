@@ -36,7 +36,7 @@ TextureImporter:
       213: 8598377932966410126
     second: Steampunk_UI_Buttons_5_10
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -96,6 +96,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -135,6 +136,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -306,13 +319,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Steampunk_UI_Buttons_5_5: -3633398782271786105
-      Steampunk_UI_Buttons_5_1: 8402200662116330782
       Steampunk_UI_Buttons_5_0: -991401099361754322
-      Steampunk_UI_Buttons_5_4: 274569517077996234
-      Steampunk_UI_Buttons_5_6: -567024156268097549
+      Steampunk_UI_Buttons_5_1: 8402200662116330782
       Steampunk_UI_Buttons_5_2: -7100797646552663157
       Steampunk_UI_Buttons_5_3: -8625608446024689505
+      Steampunk_UI_Buttons_5_4: 274569517077996234
+      Steampunk_UI_Buttons_5_5: -3633398782271786105
+      Steampunk_UI_Buttons_5_6: -567024156268097549
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
