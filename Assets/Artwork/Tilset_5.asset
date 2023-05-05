@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tilset_5
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 470536875, guid: bb18f7b170b7dc14480bd9753d57311c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.9365558, b: 0.9198113, a: 1}
   m_Transform:
     e00: 1
     e01: 0
