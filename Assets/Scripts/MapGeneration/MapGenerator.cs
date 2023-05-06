@@ -13,6 +13,11 @@ public class MapGenerator : MonoBehaviour
 
     void Start()
     {
-        tilemap.SetTile(new Vector3Int(0,0,0), tile);
+    }
+
+    public TileBase railLine(Vector3Int start, Vector3Int end)
+    {
+        tilemap.SetTile(new Vector3Int(0, 0, 0), tile);
+        return null;
     }
 }
