@@ -105,13 +105,4 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
-
-    public void PlayGame()
-    {
-        // Check if game is created based on button name.
-
-        // If game not created create new game, call NewGame().
-
-        // If game HAS been created, open it.
-    }
 }

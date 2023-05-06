@@ -13,7 +13,6 @@ public class MapGenerator : MonoBehaviour
 
     void Start()
     {
-            tilemap.SetTile(new Vector3Int(0,0,0), tile);
-        }
+        tilemap.SetTile(new Vector3Int(0,0,0), tile);
     }
 }
