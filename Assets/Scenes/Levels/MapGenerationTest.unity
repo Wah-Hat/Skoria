@@ -391,7 +391,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilemap: {fileID: 972784687}
-  tile: {fileID: 11400000, guid: 4ee0f61d3f25a01429e7fa901d539ed4, type: 2}
+  tiles:
+  - {fileID: 11400000, guid: 410fcf13d2be08e4f97cfcb92d827ba8, type: 2}
+  - {fileID: 11400000, guid: ae5ca069b74fc9740b36a50a35433a75, type: 2}
+  - {fileID: 11400000, guid: a796e1fbb671fd642993a97ceacecab5, type: 2}
+  - {fileID: 11400000, guid: 243036052bc585240b6ebb7b7f4290df, type: 2}
+  - {fileID: 11400000, guid: 4ee0f61d3f25a01429e7fa901d539ed4, type: 2}
+  - {fileID: 11400000, guid: 26a9d2c1b589c684398f32cf7784c50f, type: 2}
+  - {fileID: 11400000, guid: 534effb82f7501b47a3596c89320d4c9, type: 2}
   lineLength: 10
   tileSpacing: 1
 --- !u!4 &1022628467
@@ -450,7 +457,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820077422}
   m_Enabled: 1
-  m_CellSize: {x: 0.8659766, y: 1, z: 1}
+  m_CellSize: {x: 1, y: 1, z: 1}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 1
   m_CellSwizzle: 0

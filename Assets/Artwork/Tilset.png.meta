@@ -297,8 +297,8 @@ TextureImporter:
       name: Tilset_9
       rect:
         serializedVersion: 2
-        x: 96
-        y: 72
+        x: 0
+        y: 48
         width: 24
         height: 24
       alignment: 0
@@ -310,6 +310,69 @@ TextureImporter:
       bones: []
       spriteID: c6ff908ddedf52345af76aea6aa1392c
       internalID: 604492990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilset_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e1d8a220e64e24bae467697c1e3f82
+      internalID: 1707446465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilset_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8738f67f6e2eb314d8b4e041aaf6a839
+      internalID: 625871685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilset_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5fc993aec62244c807f0a9074b8e13
+      internalID: -2044162399
       vertices: []
       indices: 
       edges: []
@@ -327,6 +390,9 @@ TextureImporter:
     nameFileIdTable:
       Tilset_0: 1039231470
       Tilset_1: 1061027177
+      Tilset_10: 1707446465
+      Tilset_11: 625871685
+      Tilset_12: -2044162399
       Tilset_2: -1540089445
       Tilset_3: 1363308163
       Tilset_4: 1920583888
