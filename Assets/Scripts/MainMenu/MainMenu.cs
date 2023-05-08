@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
@@ -41,12 +42,19 @@ public class MainMenu : MonoBehaviour
     // Plays game.
     public void NewGame()
     {
-        // TODO - Starts new game and resets old save file.
+        DisableMenuButtons();
+        // creates a new game which will initialize our game data.
+        DataPersistanceManager.instance.NewGame();
+
+        // Load gameplay scene which will in turn save the game because of OnSceneLoaded().
+        SceneManager.LoadSceneAsync("TestScene");
     }
 
     public void Continue()
     {
-        // TODO - continues from previous game.
+        DisableMenuButtons();
+        // Loads the next scene which will also load the game because of OnSceneLoaded().
+        SceneManager.LoadSceneAsync("TestScene");
     }
 
     // Opens the settings menu.
@@ -62,10 +70,15 @@ public class MainMenu : MonoBehaviour
         // Setting menu closed.
         else
         {
-            newGame.GetComponent<Button>().enabled = false;
-            continueGame.GetComponent<Button>().enabled = false;
+            DisableMenuButtons();
             settingsScreen.SetActive(true);
         }
+    }
+
+    private void DisableMenuButtons()
+    {
+        newGame.GetComponent<Button>().enabled = false;
+        continueGame.GetComponent<Button>().enabled = false;
     }
 
     // Exits the game
